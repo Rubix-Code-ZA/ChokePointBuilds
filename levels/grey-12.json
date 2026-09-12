@@ -1,0 +1,294 @@
+{
+  "id": "grey-12",
+  "name": "The Two Gates",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "..x#x....",
+    "..x#x....",
+    "..x#x....",
+    "..x#x....",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "..#####..",
+    "..#...#..",
+    "..#...#..",
+    "..#...#..",
+    "..#...#..",
+    "..#...#..",
+    "..#...#..",
+    "..#...#.."
+  ],
+  "paths": [
+    [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        15
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        6,
+        8
+      ],
+      [
+        6,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 137,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 89,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 118,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 147,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 176,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 313,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 332,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 351,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 370,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 389,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 408,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 427,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 446,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 535,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 550,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 565,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 580,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 595,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 610,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 625,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 640,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 756,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 768,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 780,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 792,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 804,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 816,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 828,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 840,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 575,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 633,
+      "type": "mender",
+      "path": 1
+    },
+    {
+      "tick": 691,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 826,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 876,
+      "type": "mender",
+      "path": 1
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 4,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 6,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 12,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 6,
+      "y": 2,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 86377
+  }
+}

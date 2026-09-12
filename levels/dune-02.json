@@ -1,0 +1,258 @@
+{
+  "id": "dune-02",
+  "name": "The Crossing",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "......###",
+    "......#..",
+    "......#..",
+    "#########",
+    "......#.#",
+    "......#.#",
+    "..x...#.#",
+    "......#.#",
+    "....#####",
+    "....#.#..",
+    "....#.#..",
+    "..#####..",
+    "..#.#....",
+    "..#.#..x.",
+    "..#.#....",
+    "..#.#...."
+  ],
+  "paths": [
+    [
+      [
+        0,
+        3
+      ],
+      [
+        8,
+        3
+      ],
+      [
+        8,
+        8
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        4,
+        15
+      ]
+    ],
+    [
+      [
+        8,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 140,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 92,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 124,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 156,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 188,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 220,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 252,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 284,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 316,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 348,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 380,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 412,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 380,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 424,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 468,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 512,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 556,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 600,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 660,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 690,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 720,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 750,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 780,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 810,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 840,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 870,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 900,
+      "type": "armoured",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 14,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 14,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "crate",
+      "x": 5,
+      "y": 5,
+      "hp": 120,
+      "reward": {
+        "turret": "heavy"
+      }
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 60157,
+    "basic,heavy": 122036
+  }
+}

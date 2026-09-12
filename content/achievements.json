@@ -1,0 +1,12 @@
+[
+  {"id": "first-clear", "name": "First blood", "description": "Clear any stage.", "icon": "flag"},
+  {"id": "flawless", "name": "Flawless", "description": "Clear a stage with five stars.", "icon": "star"},
+  {"id": "ahead-of-plan", "name": "Ahead of the plan", "description": "Beat par on any stage.", "icon": "gold"},
+  {"id": "crate-cracker", "name": "Crate cracker", "description": "Break open a crate.", "icon": "crate"},
+  {"id": "frugal", "name": "Frugal", "description": "Clear a stage with three turrets or fewer.", "icon": "coin"},
+  {"id": "sharpshooter", "name": "Sharpshooter", "description": "One hundred kills, across all stages.", "icon": "target"},
+  {"id": "grasslands", "name": "Out of the grass", "description": "Clear every stage in Grasslands.", "icon": "season", "season": "grasslands"},
+  {"id": "dunes", "name": "Out of the sand", "description": "Clear every stage in Dunes.", "icon": "season", "season": "dunes"},
+  {"id": "full-house", "name": "Full house", "description": "Five stars on every stage in a season.", "icon": "stars"},
+  {"id": "lone-gunner", "name": "Lone gunner", "description": "Clear a stage having placed a single kind of turret.", "icon": "target"}
+]

@@ -1,0 +1,235 @@
+{
+  "season": "grasslands",
+  "at": "2026-09-12T12:38:50.310Z",
+  "options": {
+    "samples": "4000",
+    "climb": "3000",
+    "seeds": "3"
+  },
+  "stages": [
+    {
+      "id": "grey-02",
+      "name": "The Meander",
+      "loadouts": {
+        "basic": {
+          "par": 33349,
+          "stars": 5,
+          "win": 0.028374999999999997,
+          "road": 0.4912280701754386,
+          "placed": 6,
+          "plan": "basic@2,2 basic@4,2 basic@3,12 basic@6,12 basic@7,12 basic@5,13+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-03",
+      "name": "The Stairs",
+      "loadouts": {
+        "basic": {
+          "par": 73465,
+          "stars": 5,
+          "win": 0.0245625,
+          "road": 0.2282608695652174,
+          "placed": 4,
+          "plan": "basic@2,3 basic@2,4 basic@1,4+2 basic@2,6"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-04",
+      "name": "The Fork",
+      "loadouts": {
+        "basic": {
+          "par": 63112,
+          "stars": 5,
+          "win": 0.036500000000000005,
+          "road": 0.3333333333333333,
+          "placed": 4,
+          "plan": "basic@6,4 basic@2,4 basic@3,4+2 basic@5,6+1"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-05",
+      "name": "The Horseshoe",
+      "loadouts": {
+        "basic": {
+          "par": 53769,
+          "stars": 5,
+          "win": 0.02375,
+          "road": 0.23214285714285712,
+          "placed": 6,
+          "plan": "basic@6,5 basic@6,4 basic@3,7+1 basic@4,7 basic@3,5 basic@6,11+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-06",
+      "name": "The Delta",
+      "loadouts": {
+        "basic": {
+          "par": 84150,
+          "stars": 5,
+          "win": 0.0593125,
+          "road": 0.2375,
+          "placed": 5,
+          "plan": "basic@3,4 basic@3,5 basic@5,4 basic@6,4 basic@6,2+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-07",
+      "name": "The Twins",
+      "loadouts": {
+        "basic": {
+          "par": 69240,
+          "stars": 5,
+          "win": 0.025562500000000002,
+          "road": 0.3193277310924369,
+          "placed": 7,
+          "plan": "basic@2,4 basic@5,5 basic@4,6 basic@2,5 basic@1,5 basic@0,3+1 basic@6,5"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-08",
+      "name": "The Brook",
+      "loadouts": {
+        "basic": {
+          "par": 54000,
+          "stars": 5,
+          "win": 0.0304375,
+          "road": 0.3076923076923077,
+          "placed": 9,
+          "plan": "basic@3,2 basic@2,0 basic@2,6 basic@0,6 basic@3,8 basic@3,6 basic@2,10+2 basic@2,3 basic@5,10+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-09",
+      "name": "The Stile",
+      "loadouts": {
+        "basic": {
+          "par": 93160,
+          "stars": 5,
+          "win": 0.0118125,
+          "road": 0.2298136645962733,
+          "placed": 7,
+          "plan": "basic@8,5 basic@6,3 basic@7,6 basic@8,6 basic@6,5 basic@7,5 basic@5,3+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-10",
+      "name": "The Parting",
+      "loadouts": {
+        "basic": {
+          "par": 72633,
+          "stars": 5,
+          "win": 0.0388125,
+          "road": 0.33564814814814814,
+          "placed": 6,
+          "plan": "basic@4,6 basic@5,5 basic@4,8 basic@8,1 basic@7,4+2 basic@2,8"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-11",
+      "name": "The Dell",
+      "loadouts": {
+        "basic": {
+          "par": 52423,
+          "stars": 5,
+          "win": 0.0064375,
+          "road": 0.38961038961038963,
+          "placed": 7,
+          "plan": "basic@3,2 basic@2,4 basic@4,12 basic@2,10 basic@3,6+1 basic@7,5 basic@7,9+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-12",
+      "name": "The Two Gates",
+      "loadouts": {
+        "basic": {
+          "par": 86377,
+          "stars": 5,
+          "win": 0.0136875,
+          "road": 0.40625,
+          "placed": 8,
+          "plan": "basic@2,4 basic@4,6+1 basic@5,5 basic@4,5 basic@1,6+1 basic@4,10 basic@2,6 basic@1,7"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-13",
+      "name": "The Pasture",
+      "loadouts": {
+        "basic": {
+          "par": 102780,
+          "stars": 5,
+          "win": 0.017125,
+          "road": 0.37628384687208216,
+          "placed": 7,
+          "plan": "basic@6,6 basic@1,4 basic@5,6 basic@2,4+2 basic@5,7 basic@2,2+1 basic@8,8+1"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-14",
+      "name": "The Weir",
+      "loadouts": {
+        "basic": {
+          "par": 82413,
+          "stars": 5,
+          "win": 0.022625,
+          "road": 0.2554112554112554,
+          "placed": 7,
+          "plan": "basic@3,2 basic@4,2 basic@3,0 basic@1,0 basic@2,3+2 basic@0,5+1 basic@0,13+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    },
+    {
+      "id": "grey-15",
+      "name": "The Narrows",
+      "loadouts": {
+        "basic": {
+          "par": 273741,
+          "stars": 5,
+          "win": 0.0085,
+          "road": 0.37660818713450284,
+          "placed": 9,
+          "plan": "basic@0,1+2 basic@1,2 basic@2,2+1 basic@4,13 basic@5,13 basic@0,11 basic@1,11 basic@2,15+2 basic@6,2+2"
+        }
+      },
+      "flags": [],
+      "notes": []
+    }
+  ]
+}

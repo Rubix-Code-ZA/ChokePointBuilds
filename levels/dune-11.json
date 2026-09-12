@@ -1,0 +1,389 @@
+{
+  "id": "dune-11",
+  "name": "The Sandbar",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "xxxxxxx..",
+    "########.",
+    "xxxxxxx#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".#######.",
+    ".#.......",
+    ".#######.",
+    ".......#."
+  ],
+  "paths": [
+    [
+      [
+        0,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 167,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 89,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 118,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 147,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 176,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 205,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 234,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 263,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 292,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 321,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 350,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 379,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 408,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 437,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 466,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 495,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 524,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 553,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 582,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 611,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 640,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 669,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 698,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 727,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 369,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 409,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 449,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 489,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 529,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 654,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 686,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 718,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 750,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 782,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 814,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 846,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 878,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 910,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 540,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 650,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 760,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 870,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 980,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 1090,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 1200,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 789,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 837,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 885,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 933,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 981,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 1029,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 1077,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 11,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 5,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 3,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 0,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "crate",
+      "x": 6,
+      "y": 5,
+      "hp": 120,
+      "reward": {
+        "turret": "heavy"
+      }
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 68672,
+    "basic,heavy": 155567
+  }
+}

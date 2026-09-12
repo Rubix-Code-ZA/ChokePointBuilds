@@ -1,0 +1,289 @@
+{
+  "id": "dune-13",
+  "name": "The Two Roads",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "...x#x...",
+    "...x#x...",
+    "...x#x...",
+    "...x#x...",
+    "....#....",
+    "....#....",
+    "..####...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#..."
+  ],
+  "paths": [
+    [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        15
+      ]
+    ],
+    [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 172,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 88,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 116,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 144,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 172,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 200,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 228,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 256,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 284,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 312,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 340,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 368,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 363,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 402,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 441,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 480,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 645,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 676,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 707,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 738,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 769,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 800,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 831,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 540,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 650,
+      "type": "brute",
+      "path": 1
+    },
+    {
+      "tick": 760,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 870,
+      "type": "brute",
+      "path": 1
+    },
+    {
+      "tick": 980,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 1090,
+      "type": "brute",
+      "path": 1
+    },
+    {
+      "tick": 783,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 830,
+      "type": "mender",
+      "path": 1
+    },
+    {
+      "tick": 877,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 924,
+      "type": "mender",
+      "path": 1
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 14,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 9,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 3,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 2,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "crate",
+      "x": 3,
+      "y": 5,
+      "hp": 120,
+      "reward": {
+        "turret": "heavy"
+      }
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic,heavy": 147283
+  }
+}

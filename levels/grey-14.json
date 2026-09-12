@@ -1,0 +1,338 @@
+{
+  "id": "grey-14",
+  "name": "The Weir",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    ".....xxxx",
+    ".########",
+    ".#...xxxx",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#######.",
+    ".......#.",
+    ".#######.",
+    ".#......."
+  ],
+  "paths": [
+    [
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        7,
+        12
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        1,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 134,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 88,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 116,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 144,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 172,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 200,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 228,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 310,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 328,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 346,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 364,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 382,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 400,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 418,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 436,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 454,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 472,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 530,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 544,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 558,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 572,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 586,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 600,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 614,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 628,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 642,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 656,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 750,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 761,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 772,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 783,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 794,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 805,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 816,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 827,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 838,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 849,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 570,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 626,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 682,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 738,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 820,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 868,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 916,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 8,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 5,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 9,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 11,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 82413
+  }
+}

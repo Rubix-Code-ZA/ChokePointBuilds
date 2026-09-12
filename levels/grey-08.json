@@ -1,0 +1,331 @@
+{
+  "id": "grey-08",
+  "name": "The Brook",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    ".....xxxx",
+    ".########",
+    ".#...xxxx",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#.......",
+    ".#######.",
+    ".......#.",
+    ".#######.",
+    ".#.......",
+    ".#.......",
+    ".#######.",
+    ".......#."
+  ],
+  "paths": [
+    [
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        9
+      ],
+      [
+        7,
+        9
+      ],
+      [
+        7,
+        11
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        14
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        7,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 118,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 90,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 120,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 150,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 180,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 210,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 240,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 319,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 339,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 359,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 379,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 399,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 419,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 439,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 459,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 479,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 499,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 544,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 560,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 576,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 592,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 608,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 624,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 640,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 656,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 672,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 688,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 704,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 768,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 781,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 794,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 807,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 820,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 833,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 846,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 859,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 872,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 885,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 898,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 584,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 646,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 838,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 892,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 6,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 7,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 4,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 3,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 54000
+  }
+}
