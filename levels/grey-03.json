@@ -1,0 +1,279 @@
+{
+  "id": "grey-03",
+  "name": "The Stairs",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "#........",
+    "#........",
+    "#........",
+    "#........",
+    "#........",
+    "#######..",
+    "......#..",
+    "......#..",
+    "......#..",
+    "......#..",
+    "......###",
+    "........#",
+    "........#",
+    "........#",
+    "........#",
+    "........#"
+  ],
+  "paths": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 105,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 91,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 122,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 153,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 184,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 327,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 348,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 369,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 390,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 411,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 432,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 453,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 555,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 572,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 589,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 606,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 623,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 640,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 657,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 784,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 798,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 812,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 826,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 840,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 854,
+      "type": "grunt",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 2,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 7,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 4,
+      "y": 15,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 6,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 2,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 73465
+  }
+}

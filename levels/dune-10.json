@@ -1,0 +1,301 @@
+{
+  "id": "dune-10",
+  "name": "The Scarp",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "#........",
+    "#........",
+    "#........",
+    "#........",
+    "#........",
+    "#######..",
+    "......#..",
+    "......#..",
+    "......#..",
+    "......#..",
+    "......###",
+    "........#",
+    "........#",
+    "........#",
+    "........#",
+    "........#"
+  ],
+  "paths": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        10
+      ],
+      [
+        8,
+        10
+      ],
+      [
+        8,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 164,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 90,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 120,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 150,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 180,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 210,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 240,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 270,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 300,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 330,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 360,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 390,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 372,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 412,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 452,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 492,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 658,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 690,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 722,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 754,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 786,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 818,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 850,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 540,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 650,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 760,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 870,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 980,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 792,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 841,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 890,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 2,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 8,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 12,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 14,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 11,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 65386,
+    "basic,heavy": 102080
+  }
+}

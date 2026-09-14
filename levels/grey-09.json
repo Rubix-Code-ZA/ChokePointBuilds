@@ -1,0 +1,327 @@
+{
+  "id": "grey-09",
+  "name": "The Stile",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "........#",
+    "........#",
+    "........#",
+    "........#",
+    ".....####",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    "...###...",
+    "...#.....",
+    "...#.....",
+    "####.....",
+    "#........",
+    "#........",
+    "#........",
+    "#........"
+  ],
+  "paths": [
+    [
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        4
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        3,
+        11
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 121,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 90,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 120,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 150,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 180,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 210,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 318,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 338,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 358,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 378,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 398,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 418,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 438,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 458,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 542,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 558,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 574,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 590,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 606,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 622,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 638,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 654,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 765,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 778,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 791,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 804,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 817,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 830,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 843,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 856,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 869,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 582,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 643,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 835,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 888,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 2,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 4,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 6,
+      "y": 12,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 6,
+      "y": 10,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 93160
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "basic": {
+    "id": "basic",
+    "cost": 50,
+    "damageType": "kinetic",
+    "attack": {
+      "kind": "projectile",
+      "speedMilli": 12000
+    },
+    "base": {
+      "rangeMilli": 2500,
+      "damage": 10,
+      "reloadTicks": 15
+    },
+    "upgrades": [
+      {
+        "cost": 40,
+        "rangeMilli": 2750,
+        "damage": 16,
+        "reloadTicks": 14
+      },
+      {
+        "cost": 70,
+        "rangeMilli": 3000,
+        "damage": 25,
+        "reloadTicks": 12
+      }
+    ],
+    "name": "Sentry",
+    "blurb": "Cheap, quick and everywhere. Kinetic rounds; armour shrugs them off."
+  },
+  "heavy": {
+    "id": "heavy",
+    "cost": 100,
+    "damageType": "explosive",
+    "attack": {
+      "kind": "projectile",
+      "speedMilli": 7000,
+      "splashMilli": 900
+    },
+    "base": {
+      "rangeMilli": 2000,
+      "damage": 35,
+      "reloadTicks": 30
+    },
+    "upgrades": [
+      {
+        "cost": 80,
+        "rangeMilli": 2250,
+        "damage": 55,
+        "reloadTicks": 28
+      }
+    ],
+    "name": "Mortar",
+    "blurb": "Slow shells that burst on impact and hit everything nearby. Explosive; armour makes no difference."
+  },
+  "spotter": {
+    "id": "spotter",
+    "cost": 60,
+    "damageType": "none",
+    "attack": {
+      "kind": "none"
+    },
+    "base": {
+      "rangeMilli": 3000,
+      "damage": 0,
+      "reloadTicks": 1
+    },
+    "upgrades": [
+      {
+        "cost": 50,
+        "rangeMilli": 3750,
+        "damage": 0,
+        "reloadTicks": 1
+      }
+    ],
+    "name": "Spotter",
+    "blurb": "Sees far and shoots nothing. In fog, every turret inside its circle can hit anything inside it."
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "seasons": [
+    {
+      "id": "grasslands",
+      "name": "Grasslands",
+      "tagline": "Where the road first narrows.",
+      "skin": {
+        "scene": {
+          "sky": [
+            "#4f8fcf",
+            "#bfe0f5"
+          ],
+          "hills": "#3d7d4a",
+          "ground": "#5f9d43",
+          "road": "#9a7a4e",
+          "foliage": "#3b7d33",
+          "foliageDark": "#2a5624",
+          "rock": "#7f8790",
+          "sun": "#fff8cc",
+          "flora": "trees"
+        }
+      },
+      "quirks": [],
+      "stages": [
+        "grey-01",
+        "grey-02",
+        "grey-03",
+        "grey-04",
+        "grey-05",
+        "grey-06",
+        "grey-07",
+        "grey-08",
+        "grey-09",
+        "grey-10",
+        "grey-11",
+        "grey-12",
+        "grey-13",
+        "grey-14",
+        "grey-15"
+      ]
+    },
+    {
+      "id": "dunes",
+      "name": "Dunes",
+      "tagline": "Heat, sand, and a road that will not hold.",
+      "skin": {
+        "palette": {
+          "ground": "#7a6a45",
+          "tile": "#8c7a50",
+          "tuft": "#a89355",
+          "rock": "#978f7e",
+          "rockDark": "#635e50",
+          "rockLight": "#c6c0b0",
+          "path": "#9c7a4c",
+          "pathEdge": "#7a5c36",
+          "rut": "#b09263",
+          "pebble": "#b8a582",
+          "tree": "#7c8a3e",
+          "treeDark": "#56622a",
+          "bush": "#98a04e",
+          "bushDark": "#6b7333",
+          "spawn": "#6f5e34",
+          "exit": "#7a2f2f"
+        },
+        "enemies": {
+          "grunt": {
+            "name": "Raider",
+            "color": "#c9704a",
+            "shade": "#7a3f28"
+          }
+        },
+        "scene": {
+          "sky": [
+            "#c2602c",
+            "#f6c47a"
+          ],
+          "hills": "#d9a862",
+          "ground": "#e2bb7c",
+          "road": "#a8804e",
+          "foliage": "#4f8a3a",
+          "foliageDark": "#6b4a2a",
+          "rock": "#a08a66",
+          "sun": "#fff3c8",
+          "flora": "palms"
+        }
+      },
+      "quirks": [],
+      "stages": [
+        "dune-01",
+        "dune-02",
+        "dune-03",
+        "dune-04",
+        "dune-05",
+        "dune-06",
+        "dune-07",
+        "dune-08",
+        "dune-09",
+        "dune-10",
+        "dune-11",
+        "dune-12",
+        "dune-13",
+        "dune-14",
+        "dune-15"
+      ]
+    }
+  ]
+}

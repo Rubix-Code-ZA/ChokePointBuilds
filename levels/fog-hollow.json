@@ -1,0 +1,397 @@
+{
+  "id": "fog-hollow",
+  "name": "The Hollow",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "....xxxxx",
+    "..#######",
+    "..#.xxxxx",
+    "..#......",
+    "..#......",
+    "..#####..",
+    "......#..",
+    "....x.#..",
+    "......#..",
+    "..#####..",
+    "..#......",
+    "..#......",
+    "..#......",
+    "..#######",
+    ".........",
+    "........."
+  ],
+  "paths": [
+    [
+      [
+        8,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        2,
+        9
+      ],
+      [
+        2,
+        13
+      ],
+      [
+        8,
+        13
+      ]
+    ]
+  ],
+  "startingCredits": 200,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 97,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 134,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 171,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 208,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 245,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 282,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 319,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 356,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 393,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 430,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 467,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 504,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 541,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 578,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 615,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 652,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 500,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 545,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 590,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 635,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 680,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 725,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 770,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 815,
+      "type": "armoured",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "crate",
+      "x": 4,
+      "y": 3,
+      "hp": 120,
+      "reward": {
+        "turret": "spotter"
+      }
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 15,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 4,
+      "y": 11,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "fog": {
+    "visionMilli": 800
+  },
+  "loadout": [
+    "basic",
+    "heavy",
+    "spotter"
+  ],
+  "tutorial": [
+    {
+      "text": "This hollow is fogged. Turrets are blind in it: they only shoot what a spotter lights. Tap this tile.",
+      "anchor": {
+        "kind": "tile",
+        "x": 3,
+        "y": 4
+      },
+      "done": {
+        "kind": "wheel",
+        "x": 3,
+        "y": 4
+      }
+    },
+    {
+      "text": "Pick the heavy turret. On its own it will sit blind in the fog; the next piece fixes that.",
+      "anchor": {
+        "kind": "tile",
+        "x": 3,
+        "y": 4
+      },
+      "done": {
+        "kind": "queued",
+        "x": 3,
+        "y": 4,
+        "turret": "heavy"
+      }
+    },
+    {
+      "text": "A spotter here. It shoots nothing, but every turret inside its circle can hit anything inside it.",
+      "anchor": {
+        "kind": "tile",
+        "x": 5,
+        "y": 6
+      },
+      "done": {
+        "kind": "queued",
+        "x": 5,
+        "y": 6,
+        "turret": "spotter"
+      }
+    },
+    {
+      "text": "And a basic turret here.",
+      "anchor": {
+        "kind": "tile",
+        "x": 4,
+        "y": 6
+      },
+      "done": {
+        "kind": "queued",
+        "x": 4,
+        "y": 6,
+        "turret": "basic"
+      }
+    },
+    {
+      "text": "And a basic turret here.",
+      "anchor": {
+        "kind": "tile",
+        "x": 3,
+        "y": 7
+      },
+      "done": {
+        "kind": "queued",
+        "x": 3,
+        "y": 7,
+        "turret": "basic"
+      }
+    },
+    {
+      "text": "A heavy turret here. A long wait for it, but it hits hard.",
+      "anchor": {
+        "kind": "tile",
+        "x": 2,
+        "y": 6
+      },
+      "done": {
+        "kind": "queued",
+        "x": 2,
+        "y": 6,
+        "turret": "heavy"
+      }
+    },
+    {
+      "text": "A heavy turret here. A long wait for it, but it hits hard.",
+      "anchor": {
+        "kind": "tile",
+        "x": 4,
+        "y": 4
+      },
+      "done": {
+        "kind": "queued",
+        "x": 4,
+        "y": 4,
+        "turret": "heavy"
+      }
+    },
+    {
+      "text": "Last one: a spotter here.",
+      "anchor": {
+        "kind": "tile",
+        "x": 1,
+        "y": 6
+      },
+      "done": {
+        "kind": "queued",
+        "x": 1,
+        "y": 6,
+        "turret": "spotter"
+      }
+    },
+    {
+      "text": "Press Play. The fog lifts where the spotter's circle and a turret's reach overlap.",
+      "anchor": {
+        "kind": "button",
+        "id": "play"
+      },
+      "done": {
+        "kind": "running"
+      }
+    },
+    {
+      "text": "Open the queue to see what is still waiting.",
+      "anchor": {
+        "kind": "button",
+        "id": "queue"
+      },
+      "done": {
+        "kind": "drawerOpen"
+      }
+    },
+    {
+      "text": "Everything you queued, in order, and how close each is to being bought. Close it to carry on.",
+      "done": {
+        "kind": "drawerClosed"
+      }
+    },
+    {
+      "text": "That's fog: light it before you fight in it. This plan clears the stage with five stars.",
+      "done": {
+        "kind": "tap"
+      }
+    }
+  ],
+  "par": {
+    "basic,spotter": 27459,
+    "basic,heavy,spotter": 38103
+  }
+}

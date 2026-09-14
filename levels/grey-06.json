@@ -1,0 +1,254 @@
+{
+  "id": "grey-06",
+  "name": "The Delta",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "...x#x...",
+    "...x#x...",
+    "...x#x...",
+    "...x#x...",
+    "....#....",
+    "....#....",
+    "...####..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#..",
+    "...#..#.."
+  ],
+  "paths": [
+    [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        15
+      ]
+    ],
+    [
+      [
+        4,
+        0
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 121,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 90,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 120,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 150,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 180,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 322,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 342,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 362,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 382,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 402,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 422,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 442,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 548,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 564,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 580,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 596,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 612,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 628,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 644,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 775,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 788,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 801,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 814,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 827,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 840,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 588,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 15,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 2,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 4,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 4,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 2,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 84150
+  }
+}

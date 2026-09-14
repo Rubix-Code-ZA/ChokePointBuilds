@@ -1,0 +1,276 @@
+{
+  "id": "dune-04",
+  "name": "The Terrace",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "........#",
+    "........#",
+    "........#",
+    "........#",
+    "........#",
+    "...######",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "####.....",
+    "#........",
+    "#........",
+    "#........",
+    "#........",
+    "#........"
+  ],
+  "paths": [
+    [
+      [
+        8,
+        0
+      ],
+      [
+        8,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        10
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 148,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 93,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 126,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 159,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 192,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 225,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 258,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 291,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 324,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 357,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 390,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 423,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 456,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 391,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 435,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 479,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 523,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 567,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 686,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 722,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 758,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 794,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 830,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 866,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 902,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 938,
+      "type": "armoured",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 1,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 2,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 4,
+      "y": 15,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 12,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 0,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 8,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 73218,
+    "basic,heavy": 73218
+  }
+}

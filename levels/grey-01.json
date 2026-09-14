@@ -1,0 +1,403 @@
+{
+  "id": "grey-01",
+  "name": "The Bend",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    ".........",
+    ".........",
+    "########.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".#######.",
+    ".#.......",
+    ".#..x....",
+    ".#.......",
+    ".#######.",
+    ".......#.",
+    ".......#.",
+    ".......#.",
+    ".......##",
+    "........."
+  ],
+  "paths": [
+    [
+      [
+        0,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        7,
+        6
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        10
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        7,
+        14
+      ],
+      [
+        8,
+        14
+      ]
+    ]
+  ],
+  "startingCredits": 50,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 90,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 190,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 290,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 390,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 490,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 700,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 734,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 768,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 802,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 836,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 870,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 904,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 938,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 972,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1006,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1400,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1424,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1448,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1472,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1496,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1520,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1544,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1568,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1592,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1616,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1640,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1664,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1688,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1712,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1736,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 1760,
+      "type": "grunt",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 8,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 9,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "tutorial": [
+    {
+      "text": "You have 50 credits. Everything you build comes out of this, and killing anything pays a little back.",
+      "anchor": {
+        "kind": "hud",
+        "id": "credits"
+      },
+      "done": {
+        "kind": "tap"
+      }
+    },
+    {
+      "text": "Tap this tile to see what can stand here. It watches two runs of road at once.",
+      "anchor": {
+        "kind": "tile",
+        "x": 5,
+        "y": 4
+      },
+      "done": {
+        "kind": "wheel",
+        "x": 5,
+        "y": 4
+      }
+    },
+    {
+      "text": "A sentry costs 50 — everything you have. Take it.",
+      "anchor": {
+        "kind": "wheel",
+        "turret": "basic"
+      },
+      "done": {
+        "kind": "queued",
+        "x": 5,
+        "y": 4,
+        "turret": "basic"
+      }
+    },
+    {
+      "text": "Now queue a second one down here. You cannot afford it, and that is the point: the queue buys it the moment the credits arrive.",
+      "anchor": {
+        "kind": "tile",
+        "x": 3,
+        "y": 8
+      },
+      "done": {
+        "kind": "queued",
+        "x": 3,
+        "y": 8,
+        "turret": "basic"
+      }
+    },
+    {
+      "text": "Press Play.",
+      "anchor": {
+        "kind": "button",
+        "id": "play"
+      },
+      "done": {
+        "kind": "running"
+      }
+    },
+    {
+      "text": "That ring is the sentry's reach: it shoots what walks inside it, and nothing outside it. Where a gun stands matters more than how many you own.",
+      "anchor": {
+        "kind": "range",
+        "x": 5,
+        "y": 4
+      },
+      "done": {
+        "kind": "tap"
+      }
+    },
+    {
+      "text": "Watch the first lot come through. Your second sentry pays for itself out of what they drop.",
+      "done": {
+        "kind": "kills",
+        "count": 6
+      }
+    },
+    {
+      "text": "The next lot comes thicker than two sentries can answer. Tap the first sentry and upgrade it — cheaper than a third gun, and it needs no new ground.",
+      "anchor": {
+        "kind": "tile",
+        "x": 5,
+        "y": 4
+      },
+      "done": {
+        "kind": "upgraded",
+        "x": 5,
+        "y": 4
+      }
+    },
+    {
+      "text": "The best tile left is under that tree. Tap the tree: every turret in reach will shoot it down, and its timber pays for the clearing.",
+      "anchor": {
+        "kind": "tile",
+        "x": 2,
+        "y": 8
+      },
+      "done": {
+        "kind": "assigned",
+        "x": 2,
+        "y": 8
+      }
+    },
+    {
+      "text": "Your second sentry is chewing through it. Timber takes a moment, and it pays 20 credits when it goes.",
+      "anchor": {
+        "kind": "tile",
+        "x": 2,
+        "y": 8
+      },
+      "done": {
+        "kind": "cleared",
+        "x": 2,
+        "y": 8
+      }
+    },
+    {
+      "text": "Ground cleared. Put your third sentry on it before the last wave arrives.",
+      "anchor": {
+        "kind": "tile",
+        "x": 2,
+        "y": 8
+      },
+      "done": {
+        "kind": "queued",
+        "x": 2,
+        "y": 8,
+        "turret": "basic"
+      }
+    },
+    {
+      "text": "That is the whole game: pick the ground, queue what stands on it, upgrade what is already working, and make room when there is none.",
+      "done": {
+        "kind": "tap"
+      }
+    }
+  ]
+}

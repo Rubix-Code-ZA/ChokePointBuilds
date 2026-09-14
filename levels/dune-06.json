@@ -1,0 +1,258 @@
+{
+  "id": "dune-06",
+  "name": "The Cistern",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "..#xx#x..",
+    "..#xx#x..",
+    "..#xx#x..",
+    "..#xx#x..",
+    "..#xx#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..####...",
+    ".........",
+    ".........",
+    ".........",
+    "........."
+  ],
+  "paths": [
+    [
+      [
+        5,
+        0
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        2,
+        11
+      ],
+      [
+        2,
+        0
+      ]
+    ]
+  ],
+  "startingCredits": 153,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 92,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 124,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 156,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 188,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 220,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 252,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 284,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 316,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 348,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 380,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 385,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 428,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 471,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 514,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 557,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 600,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 677,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 712,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 747,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 782,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 817,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 852,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 887,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 922,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 957,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 992,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 1027,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 805,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 857,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 15,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 11,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 7,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 7,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 13,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 101089,
+    "basic,heavy": 115939
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "id": "grey-11",
+  "name": "The Dell",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "x#x.....#",
+    "x#x.....#",
+    "x#x.....#",
+    "x#x.....#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".#......#",
+    ".########",
+    ".........",
+    "........."
+  ],
+  "paths": [
+    [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        13
+      ],
+      [
+        8,
+        13
+      ],
+      [
+        8,
+        0
+      ]
+    ]
+  ],
+  "startingCredits": 126,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 89,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 118,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 147,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 176,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 205,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 315,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 334,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 353,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 372,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 391,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 410,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 429,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 448,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 537,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 552,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 567,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 582,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 597,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 612,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 627,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 642,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 759,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 771,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 783,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 795,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 807,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 819,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 831,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 843,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 855,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 577,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 636,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 695,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 829,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 880,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 5,
+      "y": 3,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 3,
+      "y": 0,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 4,
+      "y": 0,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 1,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 52423
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "grunt": {
+    "id": "grunt",
+    "hp": 70,
+    "speedMilli": 1500,
+    "bounty": 10,
+    "resistances": {},
+    "name": "Grunt",
+    "blurb": "Fast and fragile. Comes in numbers."
+  },
+  "mender": {
+    "id": "mender",
+    "hp": 90,
+    "speedMilli": 1100,
+    "bounty": 18,
+    "resistances": {},
+    "regenMilli": 9000,
+    "regenDelayTicks": 45,
+    "name": "Mender",
+    "blurb": "Slow and stubborn. Leave it alone for a second and a half and it knits itself whole again."
+  },
+  "armoured": {
+    "id": "armoured",
+    "hp": 112,
+    "speedMilli": 1000,
+    "bounty": 25,
+    "resistances": {
+      "kinetic": 50,
+      "explosive": 0
+    },
+    "name": "Armoured",
+    "blurb": "Plated and slow. Half of any kinetic hit bounces off."
+  },
+  "runner": {
+    "id": "runner",
+    "hp": 30,
+    "speedMilli": 2600,
+    "bounty": 8,
+    "resistances": {},
+    "name": "Runner",
+    "blurb": "Quick and thin-skinned. Gone before a slow gun has turned."
+  },
+  "brute": {
+    "id": "brute",
+    "hp": 320,
+    "speedMilli": 700,
+    "bounty": 60,
+    "resistances": {
+      "kinetic": 25,
+      "explosive": 0
+    },
+    "name": "Brute",
+    "blurb": "A wall of meat. Takes its time, and takes a beating."
+  }
+}

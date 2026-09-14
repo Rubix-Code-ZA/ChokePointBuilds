@@ -1,0 +1,245 @@
+{
+  "id": "dune-07",
+  "name": "The Mirage",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    "..x#x....",
+    "..x#x....",
+    "..x#x....",
+    "..x#x....",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "...#.....",
+    "..####...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#...",
+    "..#..#..."
+  ],
+  "paths": [
+    [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        2,
+        15
+      ]
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        8
+      ],
+      [
+        5,
+        8
+      ],
+      [
+        5,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 156,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 91,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 122,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 153,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 184,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 215,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 246,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 277,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 308,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 339,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 370,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 401,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 382,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 424,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 672,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 706,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 740,
+      "type": "armoured",
+      "path": 0
+    },
+    {
+      "tick": 774,
+      "type": "armoured",
+      "path": 1
+    },
+    {
+      "tick": 540,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 650,
+      "type": "brute",
+      "path": 1
+    },
+    {
+      "tick": 760,
+      "type": "brute",
+      "path": 0
+    },
+    {
+      "tick": 802,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 853,
+      "type": "mender",
+      "path": 1
+    },
+    {
+      "tick": 904,
+      "type": "mender",
+      "path": 0
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 5,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 13,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 13,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "crate",
+      "x": 4,
+      "y": 6,
+      "hp": 120,
+      "reward": {
+        "turret": "heavy"
+      }
+    }
+  ],
+  "loadout": [
+    "basic",
+    "heavy"
+  ],
+  "par": {
+    "basic": 80819,
+    "basic,heavy": 80819
+  }
+}

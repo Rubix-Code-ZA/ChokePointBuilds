@@ -1,0 +1,264 @@
+{
+  "id": "grey-10",
+  "name": "The Parting",
+  "width": 9,
+  "height": 16,
+  "grid": [
+    ".x#x.x#x.",
+    ".x#x.x#x.",
+    ".x#x.x#x.",
+    ".x#x.x#x.",
+    "..#...#..",
+    "..#...#..",
+    "..#...#..",
+    "..#####..",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    ".....#...",
+    ".....#..."
+  ],
+  "paths": [
+    [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    [
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        15
+      ]
+    ]
+  ],
+  "startingCredits": 124,
+  "lives": 10,
+  "releases": [
+    {
+      "tick": 60,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 89,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 118,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 147,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 176,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 316,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 335,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 354,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 373,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 392,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 411,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 430,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 539,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 554,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 569,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 584,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 599,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 614,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 629,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 762,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 774,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 786,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 798,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 810,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 822,
+      "type": "grunt",
+      "path": 1
+    },
+    {
+      "tick": 834,
+      "type": "grunt",
+      "path": 0
+    },
+    {
+      "tick": 579,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 639,
+      "type": "mender",
+      "path": 1
+    },
+    {
+      "tick": 832,
+      "type": "mender",
+      "path": 0
+    },
+    {
+      "tick": 884,
+      "type": "mender",
+      "path": 1
+    }
+  ],
+  "objects": [
+    {
+      "kind": "obstacle",
+      "x": 8,
+      "y": 4,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 0,
+      "y": 8,
+      "hp": 60,
+      "reward": {
+        "credits": 20
+      },
+      "look": "tree"
+    },
+    {
+      "kind": "obstacle",
+      "x": 4,
+      "y": 1,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    },
+    {
+      "kind": "obstacle",
+      "x": 2,
+      "y": 15,
+      "hp": 30,
+      "reward": {
+        "credits": 10
+      },
+      "look": "bush"
+    }
+  ],
+  "loadout": [
+    "basic"
+  ],
+  "par": {
+    "basic": 72633
+  }
+}
